@@ -4,9 +4,11 @@
 
 .col-4{
   background-color: green;
-  width: 33%;
+  width: 31.1%;
   float:left;
   text-align: center;
+  border: 1px solid #000000;
+  margin: 1%;
 }
 
 .row{
@@ -15,28 +17,33 @@
   border: 1px solid #000000;
   clear:both;
   margin: 10px;
-  padding-bottom: 15%;
+  overflow: hidden;
 }
 
 .col-8{
   background-color: green;
-  width: 66%;
+  width: 64.4%;
   float: right;
   text-align: center;
+  border: 1px solid #000000;
+  margin: 1%;
 }
 
 .col-1{
   display:inline;
   background-color: yellow;
-
+  border: 1px solid #000000;
+  margin: 0.2%;
 }
 
-.col-6-left, .col-6-right{
+.col-6{
   display:inline;
   float: left;
-  width: 48%;
+  width: 49%;
   background-color: blue;
-  margin-left: 0.5%
+  margin-left: 0.5%;
+  border: 1px solid #000000;
+  padding-bottom: 5%;
 }
 
 
@@ -45,8 +52,10 @@
   background-color: white;
   padding-bottom: 30px;
   margin-top: 10px;
-  position: relative;
+  border: 1px solid #000000;
 }
+
+
 
 
 
