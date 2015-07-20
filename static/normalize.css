@@ -1,0 +1,52 @@
+.container{
+  background-color: red;
+}
+
+.col-4{
+  background-color: green;
+  width: 33%;
+  float:left;
+  text-align: center;
+}
+
+.row{
+  background-color: purple;
+  text-align: center;
+  border: 1px solid #000000;
+  clear:both;
+  margin: 10px;
+  padding-bottom: 15%;
+}
+
+.col-8{
+  background-color: green;
+  width: 66%;
+  float: right;
+  text-align: center;
+}
+
+.col-1{
+  display:inline;
+  background-color: yellow;
+
+}
+
+.col-6-left, .col-6-right{
+  display:inline;
+  float: left;
+  width: 48%;
+  background-color: blue;
+  margin-left: 0.5%
+}
+
+
+.footer{
+  clear: both;
+  background-color: white;
+  padding-bottom: 30px;
+  margin-top: 10px;
+  position: relative;
+}
+
+
+
